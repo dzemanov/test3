@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test3
+  description: This is a react application
+  annotations:
+    github.com/project-slug: dzemanov/test3
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 9/3/2024, 10:28:35 AM
+    custom.io/other: value
+  labels:
+    other: test-label
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/janus-authors
+  scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref

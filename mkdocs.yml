@@ -1,0 +1,8 @@
+site_name: "test3"
+site_description: "This is a react application"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
